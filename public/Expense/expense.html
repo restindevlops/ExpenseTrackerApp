@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="expensestyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class ="header"><h1>Expense Tracker App</h1></div>
+        <div class = "top-buttons">
+            <div class="premium-msg" id= "prm-msg"></div>
+            <div class ="leaderboard" id = "leader"></div>
+            <button class="premium-btn" id ="rzp-btn" type="submit">Buy Premium</button>
+        </div>
+        <div class="expense-detail-form">
+            <h2>Add Expense Details</h2>
+            <form id="expense-form">
+                <label for="descr">Add Description :</label>
+                <input class="input-box" type="text" id="descr" name="description" placeholder="Enter description">
+                <label for="categ">Choose Category :</label>
+                <input  class="input-box"  list="categoryitems" name="category" id="categ" placeholder="Category">
+                <datalist id="categoryitems">
+                    <option value="Fuel">
+                    <option value="Food">
+                    <option value="Utility">
+                    <option value="Entertainment">
+                    <option value="Miscellaneous">
+                </datalist>
+                <label for="amnt">Add Amount :</label>
+                <input class="input-box" type="number" step="0.01" id="amnt" name="amount" placeholder="Enter amount">
+                <button class="expnse-btn" type="submit">Add</button>
+            </form>
+        </div>
+        <div class ="paginating-expenses" id="paginating-expenses">
+            <h2>Added Expenses</h2>
+            <label for ="expensepreference" id="select-label">Select the number of expenses to display :</label>
+            <select id = "expensepreference">
+                    <option value = "0">0</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "5">5</option>
+                    <option value = "10">10</option>
+                    <option value = "20">20</option>
+                    <option value = "30">30</option>
+            </select>
+            <button class="dwnload-btn" onclick="download()" id="downloadexpense">Download File</button>
+            <div id="table-expenses"> </div>
+            <div class = "page-buttons" id = "page-button"></div>
+        </div>
+        <div class="ranks" id ="ranks"></div>
+        <div class ="downloadfiles" id = "filesdownloaded">
+            <h2>Downloaded Files </h2>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="expense.js"></script>
+
+</body>
+
+</html>

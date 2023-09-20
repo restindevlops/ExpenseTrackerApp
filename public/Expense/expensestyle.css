@@ -1,0 +1,1196 @@
+/* Large Laptop */
+
+
+@media only screen and (min-width:2050px){
+
+    body{
+        padding:0;
+        margin: 0;
+        font-family: sans-serif;
+        background-color:rgb(175, 205, 224);
+       
+    }
+
+    .header{
+        text-align: center; 
+        background-color:#2d82bb;
+        padding:20px;
+        margin:0;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    .top-buttons{
+        width:20rem;
+        padding:20px;
+        margin:1% auto 0;
+    }
+
+
+
+    .leaderboard-button{
+        color:#246192;
+        font-size: 20px;
+        margin: 0 0 0 -41rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .expense-detail-form{
+        width:100rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:1% auto 0;
+      
+        
+    }
+
+
+
+    .expense-detail-form h2{
+        color:#3489aa;
+        margin-bottom: 30px; 
+        text-align: center;
+    }
+    
+    .expense-detail-form label{
+        margin-left: 5px;
+        text-align: left;
+    }
+    
+    .expnse-btn{
+        color:#fff;
+        width:7%;
+        padding:10px;
+        border-radius:5px;
+        font-size: 15px;
+        margin:10px 25px;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color: #1c8adb;
+        margin-bottom:25px;
+    
+    }
+    .expnse-btn:hover,
+    .expnse-btn:active {
+      background-color: rgb(8, 123, 168);
+      color: #ffffff;
+    }
+
+    .paginating-expenses{
+        width:65rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0 ;
+        height:auto;
+        
+    }
+
+    .paginating-expenses h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    .paginating-expenses label{
+        margin-left: 22rem;
+        
+    }
+
+    .expense-table{
+        background-color: #000000;
+        width:92%;
+        margin:25px 5px 0 35px
+    }
+    .expense-table-header{
+        background-color:#3d86b6;
+    }
+    .expense-table-header-value{
+        color:#fff;
+        padding:10px;
+        font-family: sans-serif;
+    }
+    .expense-table-data-value{
+        padding:10px;
+        font-family: sans-serif;
+        background-color:#a2d1f0;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 3rem;
+    }
+
+    .page-buttons{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-buttons button{
+        color:#246192;
+        font-size: 17px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ranks{
+        width:25rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin: 3% 0 0 0rem;
+        font-size: 17px;
+        
+    }
+    .ranks h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    
+    .ranks li{
+        padding:15px;
+        font-size: 17px;
+        
+    }
+    
+    .premium-btn{
+        color:#246192;
+        width:50%;
+        font-size: 20px;
+        margin:0 5.5rem 10px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .dwnload-btn{
+        color:#246192;
+        width:20%;
+        font-size: 15px;
+        margin:0 0 0 50rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .premium-msg{
+        color:#246192;
+        width:100%;
+        font-size: 15px;
+        margin:0 0 10px 49rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .downloadfiles{
+        width:65rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0 12.7rem;
+        height:auto;
+        float: left;
+    }
+    .downloadfiles h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .downloadfiles li{
+        padding:15px;
+        font-size: 17px;
+    }
+    
+    .del-btn {
+        
+        padding: 5px;
+        margin: 1rem ;
+        width:40%;
+        text-decoration: none;
+        font-weight: bold;
+        font: inherit;
+        font-size: 15px;
+        border: 2px solid #028d8d;
+        color: white;
+        background: #f04d4d;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .del-btn:hover,
+    .del-btn:active {
+      background-color: rgb(228, 38, 38);
+      color: #000000;
+    }
+    
+    .input-box{
+        padding:10px;
+        margin:10px 2px;
+        width:20%;
+        border: 1px solid #999;
+        border-radius: 5px;
+    
+    }  
+} 
+/* Laptop */
+
+@media only screen and (min-width:2000px){
+
+    body{
+        padding:0;
+        margin: 0;
+        font-family: sans-serif;
+        background-color:rgb(175, 205, 224);
+       
+    }
+
+    .header{
+        text-align: center; 
+        background-color:#2d82bb;
+        padding:20px;
+        margin:0;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    .top-buttons{
+        width:20rem;
+        padding:20px;
+        margin:1% auto 0;
+    }
+
+    .leaderboard-button{
+        color:#246192;
+        font-size: 20px;
+        margin: 0 0 0 -41rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .expense-detail-form{
+        width:100rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:1% auto 0;
+      
+        
+    }
+
+    .expense-icon{
+        visibility: hidden;
+    }
+
+    .expense-detail-form h2{
+        color:#3489aa;
+        margin-bottom: 30px; 
+        text-align: center;
+    }
+    
+    .expense-detail-form label{
+        margin-left: 5px;
+        text-align: left;
+    }
+    
+    .expnse-btn{
+        color:#fff;
+        width:7%;
+        padding:10px;
+        border-radius:5px;
+        font-size: 15px;
+        margin:10px 25px;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color: #1c8adb;
+        margin-bottom:25px;
+    
+    }
+    .expnse-btn:hover,
+    .expnse-btn:active {
+      background-color: rgb(8, 123, 168);
+      color: #ffffff;
+    }
+
+    .paginating-expenses{
+        width:65rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0 12rem;
+        height:auto;
+        float: left;
+        
+    }
+
+    .paginating-expenses h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    .paginating-expenses label{
+        margin-left: 22rem;
+        
+    }
+
+    .expense-table{
+        background-color: #000000;
+        width:92%;
+        margin:25px 5px 0 35px
+    }
+    .expense-table-header{
+        background-color:#3d86b6;
+    }
+    .expense-table-header-value{
+        color:#fff;
+        padding:10px;
+        font-family: sans-serif;
+    }
+    .expense-table-data-value{
+        padding:10px;
+        font-family: sans-serif;
+        background-color:#a2d1f0;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 3rem;
+    }
+
+    .page-buttons{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-buttons button{
+        color:#246192;
+        font-size: 17px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ranks{
+        width:25rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin: 3% 12.8rem 0 0;
+        font-size: 17px;
+        float: right;
+
+    }
+    .ranks h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    
+    .ranks li{
+        padding:15px;
+        font-size: 17px;
+        
+    }
+    
+    .premium-btn{
+        color:#246192;
+        width:50%;
+        font-size: 20px;
+        margin:0 5.5rem 10px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .dwnload-btn{
+        color:#246192;
+        width:20%;
+        font-size: 15px;
+        margin:0 0 0 50rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .premium-msg{
+        color:#246192;
+        width:100%;
+        font-size: 15px;
+        margin:0 0 10px 49rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .downloadfiles{
+        width:65rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0 12.7rem;
+        height:auto;
+        float: left;
+    }
+    .downloadfiles h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .downloadfiles li{
+        padding:15px;
+        font-size: 17px;
+    }
+    
+    .del-btn {
+        
+        padding: 5px;
+        margin: 1rem ;
+        width:40%;
+        text-decoration: none;
+        font-weight: bold;
+        font: inherit;
+        font-size: 15px;
+        border: 2px solid #028d8d;
+        color: white;
+        background: #f04d4d;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .del-btn:hover,
+    .del-btn:active {
+      background-color: rgb(228, 38, 38);
+      color: #000000;
+    }
+    
+    .input-box{
+        padding:10px;
+        margin:10px 2px;
+        width:20%;
+        border: 1px solid #999;
+        border-radius: 5px;
+    
+    }  
+} 
+
+/* Tablet */
+@media only screen and (max-width:2000px){
+
+    body{
+        padding:0;
+        margin: 0;
+        font-family: sans-serif;
+        background-color:rgb(175, 205, 224);
+       
+    }
+
+    .header{
+        text-align: center; 
+        background-color:#2d82bb;
+        padding:20px;
+        width : auto;
+        margin:0;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    .top-buttons{
+        width:30rem;
+        padding:20px;
+        margin:1% auto 0;
+    }
+
+    .leaderboard-button{
+        color:#246192;
+        font-size: 15px;
+        margin: 0 0 0 -20px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .expense-icon{
+        width:15rem;
+        margin: -25px 5rem;
+    }
+
+    .expense-detail-form{
+        width:30rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:1% auto 0;
+        /* text-align: center; */
+        
+    }
+
+    .expense-detail-form h2{
+        color:#3489aa;
+        margin-bottom: 50px; 
+        text-align: center;
+    }
+    
+    .expense-detail-form label{
+        text-align: left;
+    }
+    
+    .expnse-btn{
+        color:#fff;
+        width:98%;
+        padding:10px;
+        border-radius:5px;
+        font-size: 15px;
+        margin:15px 0;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color: #1c8adb;
+        margin-bottom:25px;
+    
+    }
+    .expnse-btn:hover,
+    .expnse-btn:active {
+      background-color: rgb(8, 123, 168);
+      color: #ffffff;
+    }
+
+    .paginating-expenses{
+        width:30rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        /* text-align: center; */    
+    } 
+ 
+    .paginating-expenses h2{
+        color:#3489aa;
+        margin-bottom: 35px; 
+        text-align: center;
+    } 
+    .paginating-expenses label{
+        text-align: left; 
+    }
+
+    .expense-table{
+        background-color: #000000;
+        width:100%;
+        margin:25px 2px;
+    }
+    .expense-table-header{
+        background-color:#3d86b6;
+    }
+    .expense-table-header-value{
+        color:#fff;
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .expense-table-data-value{
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        background-color:#a2d1f0;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 3rem;
+    }
+
+    .page-buttons{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-buttons button{
+        color:#246192;
+        font-size: 17px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ranks{
+        width:30rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        font-size: 17px;
+
+    }
+    .ranks h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    
+    .ranks li{
+        padding:15px;
+        font-size: 17px;
+        
+    } 
+    
+    .premium-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:0 5.5rem 10px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .dwnload-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:.5rem 0 0 19rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .premium-msg{
+        color:#246192;
+        width:60%;
+        font-size: 15px;
+        margin:0 0 10px 20rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    .downloadfiles{
+        width:30rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+    }
+    .downloadfiles h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .downloadfiles li{
+        padding:15px;
+        font-size: 17px;
+    } 
+    
+    .del-btn {
+        
+        padding: 5px;
+        margin: 1rem ;
+        width:60%;
+        text-decoration: none;
+        font-weight: bold;
+        font: inherit;
+        font-size: 12px;
+        border: 2px solid #028d8d;
+        color: white;
+        background: #f04d4d;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .del-btn:hover,
+    .del-btn:active {
+      background-color: rgb(228, 38, 38);
+      color: #000000;
+    }
+    
+    .input-box{
+        padding:10px;
+        margin:10px 0px;
+        width:90%;
+        border: 1px solid #999;
+        border-radius: 5px;
+    
+    }  
+}
+
+/* Mobile */
+@media only screen and (max-width:700px){
+
+    body{
+        padding:0;
+        margin: 0;
+        font-family: sans-serif;
+        background-color:rgb(175, 205, 224);
+       
+    }
+
+    .header{
+        text-align: center; 
+        background-color:#2d82bb;
+        padding:20px;
+        width : auto;
+        margin:0;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    .top-buttons{
+        width:20rem;
+        padding:20px;
+        margin:1% auto 0;
+    }
+
+    .leaderboard-button{
+        color:#246192;
+        font-size: 15px;
+        margin: 0 0 0 -20px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .expense-icon{
+        width:15rem;
+        margin: -25px 5rem;
+    }
+
+    .expense-detail-form{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:1% auto 0;
+        /* text-align: center; */
+        
+    }
+
+    .expense-detail-form h2{
+        color:#3489aa;
+        margin-bottom: 50px; 
+        text-align: center;
+    }
+    
+    .expense-detail-form label{
+        text-align: left;
+    }
+    
+    .expnse-btn{
+        color:#fff;
+        width:98%;
+        padding:10px;
+        border-radius:5px;
+        font-size: 15px;
+        margin:15px 0;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color: #1c8adb;
+        margin-bottom:25px;
+    
+    }
+    .expnse-btn:hover,
+    .expnse-btn:active {
+      background-color: rgb(8, 123, 168);
+      color: #ffffff;
+    }
+
+    .paginating-expenses{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        /* text-align: center; */    
+    } 
+ 
+    .paginating-expenses h2{
+        color:#3489aa;
+        margin-bottom: 35px; 
+        text-align: center;
+    } 
+    .paginating-expenses label{
+        text-align: left; 
+    }
+
+    .expense-table{
+        background-color: #000000;
+        width:100%;
+        margin:25px 2px;
+    }
+    .expense-table-header{
+        background-color:#3d86b6;
+    }
+    .expense-table-header-value{
+        color:#fff;
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .expense-table-data-value{
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        background-color:#a2d1f0;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 3rem;
+    }
+
+    .page-buttons{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-buttons button{
+        color:#246192;
+        font-size: 17px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ranks{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        font-size: 17px;
+
+    }
+    .ranks h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    
+    .ranks li{
+        padding:15px;
+        font-size: 17px;
+        
+    } 
+    
+    .premium-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:0 5.5rem 10px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .dwnload-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:.5rem 0;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .premium-msg{
+        color:#246192;
+        width:60%;
+        font-size: 15px;
+        margin:0 0 10px 11rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    .downloadfiles{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+    }
+    .downloadfiles h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .downloadfiles li{
+        padding:15px;
+        font-size: 17px;
+    } 
+    
+    .del-btn {
+        
+        padding: 5px;
+        margin: 1rem ;
+        width:60%;
+        text-decoration: none;
+        font-weight: bold;
+        font: inherit;
+        font-size: 12px;
+        border: 2px solid #028d8d;
+        color: white;
+        background: #f04d4d;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .del-btn:hover,
+    .del-btn:active {
+      background-color: rgb(228, 38, 38);
+      color: #000000;
+    }
+    
+    .input-box{
+        padding:10px;
+        margin:10px 0px;
+        width:90%;
+        border: 1px solid #999;
+        border-radius: 5px;
+    
+    }  
+}
+
+/* Small Mobile */
+
+@media only screen and (max-width:475px){
+
+    
+    body{
+        padding:0;
+        margin: 0;
+        font-family: sans-serif;
+        background-color:rgb(175, 205, 224);
+       
+    }
+
+    .header{
+        text-align: center; 
+        background-color:#2d82bb;
+        padding:20px;
+        width : auto;
+        margin:0;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    .top-buttons{
+        width:20rem;
+        padding:20px;
+        margin:1% auto 0;
+    }
+
+    .leaderboard-button{
+        color:#246192;
+        font-size: 15px;
+        margin: 0 0 0 -20px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .expense-icon{
+        width:15rem;
+        margin: -25px 5rem;
+    }
+
+    .expense-detail-form{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:1% auto 0;
+        /* text-align: center; */
+        
+    }
+
+    .expense-detail-form h2{
+        color:#3489aa;
+        margin-bottom: 50px; 
+        text-align: center;
+    }
+    
+    .expense-detail-form label{
+        text-align: left;
+    }
+    
+    .expnse-btn{
+        color:#fff;
+        width:98%;
+        padding:10px;
+        border-radius:5px;
+        font-size: 15px;
+        margin:15px 0;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color: #1c8adb;
+        margin-bottom:25px;
+    
+    }
+    .expnse-btn:hover,
+    .expnse-btn:active {
+      background-color: rgb(8, 123, 168);
+      color: #ffffff;
+    }
+
+    .paginating-expenses{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        /* text-align: center; */    
+    } 
+ 
+    .paginating-expenses h2{
+        color:#3489aa;
+        margin-bottom: 35px; 
+        text-align: center;
+    } 
+    .paginating-expenses label{
+        text-align: left; 
+    }
+
+    .expense-table{
+        background-color: #000000;
+        width:100%;
+        margin:25px 2px;
+    }
+    .expense-table-header{
+        background-color:#3d86b6;
+    }
+    .expense-table-header-value{
+        color:#fff;
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .expense-table-data-value{
+        padding:10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        background-color:#a2d1f0;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 3rem;
+    }
+
+    .page-buttons{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-buttons button{
+        color:#246192;
+        font-size: 17px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ranks{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+        font-size: 17px;
+
+    }
+    .ranks h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+    
+    .ranks li{
+        padding:15px;
+        font-size: 17px;
+        
+    } 
+    
+    .premium-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:0 5.5rem 10px;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .dwnload-btn{
+        color:#246192;
+        width:50%;
+        font-size: 15px;
+        margin:.5rem 0;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .premium-msg{
+        color:#246192;
+        width:60%;
+        font-size: 15px;
+        margin:0 0 10px 11rem;
+        border:none ; 
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    .downloadfiles{
+        width:20rem;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding:20px;
+        margin:3% auto 0;
+    }
+    .downloadfiles h2{
+        color:#3489aa;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .downloadfiles li{
+        padding:15px;
+        font-size: 17px;
+    } 
+    
+    .del-btn {
+        
+        padding: 5px;
+        margin: 1rem ;
+        width:60%;
+        text-decoration: none;
+        font-weight: bold;
+        font: inherit;
+        font-size: 12px;
+        border: 2px solid #028d8d;
+        color: white;
+        background: #f04d4d;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .del-btn:hover,
+    .del-btn:active {
+      background-color: rgb(228, 38, 38);
+      color: #000000;
+    }
+    
+    .input-box{
+        padding:10px;
+        margin:10px 0px;
+        width:90%;
+        border: 1px solid #999;
+        border-radius: 5px;
+    
+    } 
+    
+} 
+
+
+   
