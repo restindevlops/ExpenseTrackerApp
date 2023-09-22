@@ -240,7 +240,7 @@
 } 
 
 /* Mobile */
-@media only screen and (max-width:700px){
+@media only screen and (min-width:475px) and (max-width:700px){
 
     body{
         padding:0;
@@ -477,7 +477,7 @@
 }
 
 /* Tablet */
-@media only screen and (max-width:2000px){
+@media only screen and (min-width:700px)and (max-width:2000px) {
 
     body{
         padding:0;
@@ -715,7 +715,7 @@
 
 /* Laptop */
 
-@media only screen and (max-width:2050px){
+@media only screen and (min-width:2000px) and (max-width:2050px){
 
     body{
         padding:0;
