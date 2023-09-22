@@ -215,7 +215,7 @@ function showLeaderboard() {
             leaderboardElem.innerHTML += '<h2> Leader Board </h2>'
 
             userLeaderBoardArray.data.forEach((userDetails) => {
-                leaderboardElem.innerHTML += `<li> Name : ${userDetails.name} Total Expense : ${userDetails.total_cost || 0}`;
+                leaderboardElem.innerHTML += `<li> Name : ${userDetails.name} Total Expense : ${userDetails.totalExpense || 0}`;
             })
         } catch (err) {
             console.log(err);
