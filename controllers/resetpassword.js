@@ -28,7 +28,7 @@ const forgotpassword = async (req, res) => {
                 to: email, 
                 from: 'restincraji@gmail.com', 
                 subject: 'Reset Password',
-                html: `<a href="http://localhost:3000/password/resetpassword/${id}">Click here to reset the password</a>`
+                html: `<a href="http://34.234.148.249:3000/password/resetpassword/${id}">Click here to reset the password</a>`
             }
 
             const response = await sgMail.send(msg);
@@ -184,7 +184,7 @@ const updatepassword =  async (req, res) => {
                                     }
                                 </script>
                                 <h2>New Password is Successfully Updated</h2>
-                                <a href="http://127.0.0.1:5500/Login/login.html">Back to Login Page</a>
+                                <a href="http://34.234.148.249:3000/Login/login.html">Back to Login Page</a>
                             </html>`)
                 res.end();
                 });
